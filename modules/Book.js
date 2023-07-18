@@ -48,7 +48,7 @@ const bookApp = (bookStorageName) => {
       this.newBookList = [];
     }
 
-    saveData() {
+    saveData = () => {
       this.newBookList = [];
       bookList.forEach((book) => {
         this.newBookList.push({ title: book.title, author: book.author });
@@ -56,7 +56,7 @@ const bookApp = (bookStorageName) => {
       localStorage.setItem(bookStorageName, JSON.stringify(this.newBookList));
     }
 
-    addBook() {
+    addBook = () => {
       counter += 1;
       const divBook = document.createElement('div');
       if (counter % 2 === 1) {
@@ -79,7 +79,7 @@ const bookApp = (bookStorageName) => {
       bookListElement.appendChild(divBook);
     }
 
-    removeBook() {
+    removeBook = () => {
       const index = bookList.indexOf(this);
       bookList = bookList.filter((_book) => _book !== this);
       this.saveData();
@@ -96,7 +96,7 @@ const bookApp = (bookStorageName) => {
       });
     }
 
-    renderBookList() {
+    renderBookList = () => {
       const storedvalue = localStorage.getItem(bookStorageName);
       bookListElement.textContent = '';
       bookList = [];
