@@ -130,5 +130,4 @@ const bookApp = (bookStorageName) => {
   });
 };
 
-// eslint-disable-next-line import/prefer-default-export
-export { bookApp };
+export default bookApp;

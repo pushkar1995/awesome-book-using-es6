@@ -1,8 +1,6 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  
-  <img src="" alt="logo" width="140"  height="auto" />
   <br/>
 
 </div>
@@ -19,7 +17,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 
@@ -33,19 +30,15 @@ This Awsome books project is a JavaScript based project allowing to add and remo
 <br>
 
 ## 🛠 Built With <a name="built-with"></a>
-<br>
 
-
-  <summary>Page was built using basic HTML, where JavaScript is the main language, page was created dynamically, and all functionallity is pure JavaScript.</summary>
-
-<br>
+- HTML
+- CSS
+- JavaScript
 
 ### Key Features <a name="key-features"></a>
 
-<br>
-
-- **Project is created dynamically**
-- **Project is set up with localStorage**
+- **Book List is created dynamically**
+- **Book List is stored in localStorage**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -83,7 +76,7 @@ To get a local copy up and running, follow these steps:
 ## 🔭 Future Features <a name="future-features"></a>
 <br>
 
--**In the future CSS will be added to the page, to have more inviting vibe for the user**
+- **In the future CSS will be added to the page, to have more inviting vibe for the user**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -101,10 +94,7 @@ Feel free to check the [issues page](https://github.com/pushkar1995/awesome-book
 ## ⭐️ Show your support <a name="support"></a>
 <br>
 
-If you like my page please show your support and give this page a star!
-<br>
-<br>
-[![Star](https://github.com/pushkar1995/awesome-book-project)
+If you like my page please show your support and give this page a [Star](https://github.com/pushkar1995/awesome-book-project)!
 
 
 
@@ -112,9 +102,7 @@ If you like my page please show your support and give this page a star!
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-<br>
 
-<br>
 I would like to extend my heartfelt gratitude to Microverse for providing me with the opportunity to undertake this project. Additionally, I am immensely thankful to the code reviewers who takes the time to assess my work and provide valuable feedback, which greatly contributed to the refinement and success of the project. Your guidance and support have been invaluable throughout this endeavor, and I am truly grateful for your contributions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
