@@ -1,4 +1,3 @@
-/* eslint-disable quotes */
 const bookApp = (bookStorageName) => {
   let counter = 0;
   let bookList = [];
