@@ -1,135 +1,134 @@
 body {
-    box-sizing: border-box;
-    padding: 0%;
-    margin: 0%;
-  }
-  
-  header {
-    height: 64px;
-    background-color: aqua;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border: 2px solid black;
-  }
-  
-  #dynamicParagraph {
-    float: right;
-    margin-right: 2em;
-  }
-  
-  .contact {
-    margin-left: 25%;
-    display: none;
-  }
-  
-  .contact-ul li {
-    margin-top: 3%;
-  }
-  
-  .navbar {
-    float: right;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 4%;
-    list-style: none;
-    padding: 5px;
-  }
-  
-  .navbar li {
-    padding-right: 15px;
-    height: 23px;
-  }
-  
-  .navbar li a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .navbar li:not(:last-child) {
-    border-right: 1px solid black;
-    margin-right: 12px;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .listBook {
-    width: 70%;
-    padding: 5px;
-    margin: auto;
-  }
-  
-  .add-new {
-    width: 30%;
-    margin: auto;
-    display: none;
-  }
-  
-  h2 {
-    text-align: center;
-  }
-  
-  .inputs {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  input {
-    height: 30px;
-    padding: 5px;
-    margin-top: 3%;
-    border: 2px solid black;
-  }
-  
-  #addButton {
-    padding: 6px;
-    width: 60px;
-    margin-top: 15px;
-    margin-left: 84%;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-  }
-  
-  #bookList {
-    border: 3px solid black;
-  }
-  
-  ul > .bg-gray {
-    list-style: none;
-    padding: 5px;
-    margin-top: 5px;
-    margin-left: -37px;
-  }
-  
-  .bg-gray:nth-child(odd) {
-    background-color: rgb(207, 229, 247); /* Red */
-  }
-  
-  .remove-btn {
-    margin-left: 4%;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-    float: right;
-  }
-  
-  h5 {
-    margin-left: 25%;
-    font-size: larger;
-  }
-  
-  footer {
-    border: 2px solid black;
-    padding: 0.2em;
-    position: fixed;
-    bottom: 0.4em;
-    width: 100%;
-  }
-  
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  height: 64px;
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid black;
+}
+
+#dynamicParagraph {
+  float: right;
+  margin-right: 2em;
+}
+
+.contact {
+  margin-left: 25%;
+  display: none;
+}
+
+.contact-ul li {
+  margin-top: 3%;
+}
+
+.navbar {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4%;
+  list-style: none;
+  padding: 5px;
+}
+
+.navbar li {
+  padding-right: 15px;
+  height: 23px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar li:not(:last-child) {
+  border-right: 1px solid black;
+  margin-right: 12px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.listBook {
+  width: 70%;
+  padding: 5px;
+  margin: auto;
+}
+
+.add-new {
+  width: 30%;
+  margin: auto;
+  display: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 30px;
+  padding: 5px;
+  margin-top: 3%;
+  border: 2px solid black;
+}
+
+#addButton {
+  padding: 6px;
+  width: 60px;
+  margin-top: 15px;
+  margin-left: 84%;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
+
+#bookList {
+  border: 3px solid black;
+}
+
+ul > .bg-gray {
+  list-style: none;
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: -37px;
+}
+
+.bg-gray:nth-child(odd) {
+  background-color: rgb(207, 229, 247); /* Red */
+}
+
+.remove-btn {
+  margin-left: 4%;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  float: right;
+}
+
+h5 {
+  margin-left: 25%;
+  font-size: larger;
+}
+
+footer {
+  border: 2px solid black;
+  padding: 0.2em;
+  position: fixed;
+  bottom: 0.4em;
+  width: 100%;
+}
