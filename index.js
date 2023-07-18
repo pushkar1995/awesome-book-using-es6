@@ -1,2 +1,6 @@
-// import { DateTime } from './node_modules/luxon/src/luxon.js';
-// import { titleFunction, authorFunction } from './modules/localStorage.js';
+import date from './modules/DateTime.js';
+import { bookApp } from './modules/Book.js';
+
+bookApp('booklist');
+
+date();

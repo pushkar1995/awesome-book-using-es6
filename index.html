@@ -9,52 +9,63 @@
 </head>
 
 <body>
+
+    <!-- nav-bar -->
     <header>
-        <h4>Awesome Books</h4>
-        <nav>
-            <ul class="navbar">
-                <li><a id="list" href="#">List</a></li>
-                <li><a id="add" href="#">Add new</a></li>
-                <li><a id="contactBtn" href="#">Contact</a></li>
-            </ul>
+        <nav class="nav">
+            <div>
+                <a href="#">Awesome Book</a>
+            </div>
+            <div>
+                <a id="listBtn" class="nav-border" href="#List">List</a>
+                <a id="AddNewBtn" class="nav-border" href="#Add-new">Add new</a>
+                <a id="contBtn" href="#Contact">Contact</a>
+            </div>
         </nav>
     </header>
-    <p id="dynamicParagraph"></p>
-    <div class="container">
-        <section>
-            <div id="booklist" class="listBook">
-                <h1>All Awesome-Book</h1>
-                <ul id="bookList"></ul>
-            </div>
-        </section>
+    <!-- nav-bar end -->
 
-        <section>
-            <div id="addNew" class="add-new">
-                <h2>Add a new book</h2>
-                <div class="inputs">
-                    <input type="text" id="titleInput" placeholder="Title">
-                    <input type="text" id="authorInput" placeholder="Author">
-                    <button id="addButton">Add</button>
+    <main>
+        <section class="dt" id="date">
+            <p class="date"></p>
+        </section>
+        <section id="book-section">
+            <h2>All awesome books</h2>
+            <div id="book-list">
+                <div class="book">
+                    <h5 class="title"></h5>
+                    <button type="button">Remove</button>
                 </div>
             </div>
         </section>
-        <section>
-            <div id="contact" class="contact">
-                <h5>Contact information</h5>
-                <p>If you have any questions or suggestions feel free to get in touch to reach out you can :</p>
-                <ul class="contact-ul">
-                    <li>Email us at email@email.com</li>
-                    <li>By telephone +0000000000000</li>
-                    <li>Or you can pop in, and have a chat @ Example street, Example City at a Fictional Country</li>
+        <section id="form-section">
+            <form>
+                <h2 class="main-title">Add a new book</h2>
+                <input type="text" id="title" name="title" required placeholder="Book Title" /><br />
+                <input type="text" id="author" name="author" required placeholder="Book Author" /><br />
+                <button class="btn" type="submit" id="add-btn">Add Book</button>
+            </form>
+        </section>
+        <section id="contact-section">
+            <div class="contactUs">
+                <h2>Contact information</h2>
+                <p>
+                    Do have any questions or you want to say "Hello"?<br />
+                    you can reach out to us!
+                </p>
+                <ul>
+                    <li>Our e-mail mail@mail.com</li>
+                    <li>Our phone number: 0043586534422</li>
+                    <li>our address: Streetname 22, 84503 City, country</li>
                 </ul>
             </div>
         </section>
-    </div>
-    <footer>
-        <p>&copy;2023 Pushkar</p>
-    </footer>
-    </div>
-    <script type="module" src="index.js"></script>
+        <footer>
+            <span>© Copyright 2023 Awesome Books. All rights reserved. Pushkar</span>
+        </footer>
+    </main>
+
+    <script type="module" src="/index.js"></script>
 </body>
 
 </html>
